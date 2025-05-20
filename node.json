@@ -1,0 +1,70 @@
+{
+    "name": "Dual Player",
+    "options": [{
+        "title": "Playlist Left",
+        "name": "playlist_1",
+        "type": "list",
+        "itemname": "Item",
+        "items": [{
+            "title": "Asset",
+            "ui_width": 8,
+            "name": "asset",
+            "type": "resource",
+            "valid": ["image", "video"],
+            "features": ["hevc", "image4k"],
+            "default": "empty.png"
+        }, {
+            "title": "Play time (in seconds)",
+            "ui_width": 4,
+            "name": "duration",
+            "type": "duration",
+            "hint": "How long should this item be displayed on screen. For videos, use their duration",
+            "default": 5
+        }]
+    }, {
+        "title": "Playlist Right",
+        "name": "playlist_2",
+        "type": "list",
+        "itemname": "Item",
+        "items": [{
+            "title": "Asset",
+            "ui_width": 8,
+            "name": "asset",
+            "type": "resource",
+            "valid": ["image", "video"],
+            "features": ["hevc", "image4k"],
+            "default": "empty.png"
+        }, {
+            "title": "Play time (in seconds)",
+            "ui_width": 4,
+            "name": "duration",
+            "type": "duration",
+            "hint": "How long should this item be displayed on screen. For videos, use their duration",
+            "default": 5
+        }]
+    },
+ {
+   "title" : "Enable Audio",
+   "name": "enable_audio",
+   "type": "select",
+  "default": "yes",
+  "options": [
+  ["yes", "Enable Audio"],
+  ["no", "Disable Audio"]
+]
+  
+ },
+{
+    "title": "This device is the Leader",
+    "name": "is_leader",
+    "type": "select",
+    "default": "no",
+    "options": [
+        ["yes", "Yes (send sync)"],
+        ["no", "No (listen only)"]
+
+    ]
+}
+]
+
+}
