@@ -1,8 +1,6 @@
 # Play two playlists side by side
 
-[![Import](https://cdn.infobeamer.com/s/img/import.png)](https://info-beamer.com/use?url=https://github.com/info-beamer/package-dual-player)
-
-This is a small example package showing how to build a simple player
+{This is a small example package showing how to build a simple player
 that displays two independant playlists side by side. Should be easy
 to change if you need other layouts.
 
@@ -14,4 +12,7 @@ You should *not* attempt to play two FullHD videos next to each other.
 Doing so might be too much for the Pi and it might cause a lost
 video signal as the Pi cannot generate and HDMI output signal
 fast enough. It's best to use videos/images that exactly fit into the
-available space.
+available space.}  From original author
+
+I played two Full HD videos side by side on Raspberry Pi 5 and it worked and only one video had the sound for all videos I wanted to play.
+
